@@ -18,7 +18,7 @@ jobs:
       - run: tree 
         name: Tree Before Chekout
       - name: Chekout
-        uses: actions/chekout@v1.0
+        uses: actions/checkout@v4
       - name: Tree After Chekout 
         run: tree
       - run: cat README.md
